@@ -1,0 +1,338 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="CMakePresetLoader">{
+  &quot;useNewFormat&quot;: true
+}</component>
+  <component name="CMakeReloadState">
+    <option name="reloaded" value="true" />
+  </component>
+  <component name="CMakeRunConfigurationManager">
+    <generated>
+      <config projectName="RandomizerCPP" targetName="RandomizerCPP" />
+    </generated>
+  </component>
+  <component name="CMakeSettings">
+    <configurations>
+      <configuration PROFILE_NAME="Debug" ENABLED="true" CONFIG_NAME="Debug" />
+    </configurations>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="a7d74f59-f4a8-4fcf-9db4-f854319f3fee" name="Changes" comment="fixed string gen multi input">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.ninja_deps" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/.ninja_deps" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.ninja_log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/.ninja_log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/RandomizerCPP.dir/main.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/RandomizerCPP.dir/main.cpp.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/RandomizerCPP.exe" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/RandomizerCPP.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
+    </list>
+    <list id="9e755988-ef56-40c7-9e9a-d87c0240d03c" name="Changes by lukas" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ClangdSettings">
+    <option name="formatViaClangd" value="false" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;SimonZaloudek&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="b80b80f9-8bab-4d39-aacb-e8e8f18858fd" />
+        <option name="url" value="https://github.com/SimonZaloudek/RandomizerCPP.git" />
+      </UrlAndAccount>
+    </option>
+  </component>
+  <component name="ProjectApplicationVersion">
+    <option name="ide" value="CLion" />
+    <option name="majorVersion" value="2023" />
+    <option name="minorVersion" value="2.2" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 1
+}</component>
+  <component name="ProjectId" id="2VyKhL3zBM45pFsnedJu4EuKYN4" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.cidr.known.project.marker&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;cf.first.check.clang-format&quot;: &quot;false&quot;,
+    &quot;cidr.known.project.marker&quot;: &quot;true&quot;,
+    &quot;codeWithMe.voiceChat.enabledByDefault&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/simon/OneDrive/Programy/Programovanie/RandomizerCPP&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RunManager">
+    <configuration name="RandomizerCPP" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="RandomizerCPP" TARGET_NAME="RandomizerCPP" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="RandomizerCPP" RUN_TARGET_NAME="RandomizerCPP">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a7d74f59-f4a8-4fcf-9db4-f854319f3fee" name="Changes" comment="" />
+      <created>1695802998029</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1695802998029</updated>
+      <workItem from="1695802999329" duration="750000" />
+      <workItem from="1695805417560" duration="1552000" />
+      <workItem from="1695835225532" duration="5075000" />
+      <workItem from="1695922812160" duration="3753000" />
+      <workItem from="1696021921319" duration="2345000" />
+      <workItem from="1696090489633" duration="2026000" />
+      <workItem from="1696117635019" duration="3992000" />
+      <workItem from="1696125926250" duration="365000" />
+      <workItem from="1696167690888" duration="216000" />
+      <workItem from="1696277443778" duration="655000" />
+      <workItem from="1696326894951" duration="3882000" />
+      <workItem from="1696342633660" duration="161000" />
+      <workItem from="1696354842026" duration="4249000" />
+      <workItem from="1696413516961" duration="894000" />
+      <workItem from="1696504735868" duration="5000" />
+      <workItem from="1696587538780" duration="705000" />
+      <workItem from="1696696241383" duration="1393000" />
+      <workItem from="1696711934886" duration="42000" />
+      <workItem from="1696953633211" duration="74000" />
+      <workItem from="1697059546657" duration="4000" />
+      <workItem from="1701616014916" duration="67000" />
+      <workItem from="1704479562713" duration="1186000" />
+      <workItem from="1704571870073" duration="11000" />
+    </task>
+    <task id="LOCAL-00001" summary="fix and intro">
+      <option name="closed" value="true" />
+      <created>1695808542917</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1695808542917</updated>
+    </task>
+    <task id="LOCAL-00002" summary="fix and intro">
+      <option name="closed" value="true" />
+      <created>1695840162336</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1695840162336</updated>
+    </task>
+    <task id="LOCAL-00003" summary="updated login, updated menu and set up for next step.. generation">
+      <option name="closed" value="true" />
+      <created>1695842035712</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1695842035712</updated>
+    </task>
+    <task id="LOCAL-00004" summary="updated login, updated menu and set up for next step.. generation">
+      <option name="closed" value="true" />
+      <created>1695842323101</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1695842323101</updated>
+    </task>
+    <task id="LOCAL-00005" summary="updated login, updated menu and set up for next step.. generation">
+      <option name="closed" value="true" />
+      <created>1695926555070</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1695926555070</updated>
+    </task>
+    <task id="LOCAL-00006" summary="minor changes">
+      <option name="closed" value="true" />
+      <created>1696021985425</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1696021985425</updated>
+    </task>
+    <task id="LOCAL-00007" summary="minor update">
+      <option name="closed" value="true" />
+      <created>1696031882338</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1696031882338</updated>
+    </task>
+    <task id="LOCAL-00008" summary="fixed input verification, implemented verification inside inputGen method.">
+      <option name="closed" value="true" />
+      <created>1696091820644</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1696091820644</updated>
+    </task>
+    <task id="LOCAL-00009" summary="minor documentation">
+      <option name="closed" value="true" />
+      <created>1696092182648</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1696092182648</updated>
+    </task>
+    <task id="LOCAL-00010" summary="finished string generation">
+      <option name="closed" value="true" />
+      <created>1696121659434</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1696121659434</updated>
+    </task>
+    <task id="LOCAL-00011" summary="testing multiclassing">
+      <option name="closed" value="true" />
+      <created>1696278003113</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1696278003113</updated>
+    </task>
+    <task id="LOCAL-00012" summary="testing multiclassing">
+      <option name="closed" value="true" />
+      <created>1696278030087</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1696278030087</updated>
+    </task>
+    <task id="LOCAL-00013" summary="testing multiclassing">
+      <option name="closed" value="true" />
+      <created>1696278055643</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1696278055643</updated>
+    </task>
+    <task id="LOCAL-00014" summary="testing multiclassing fixed">
+      <option name="closed" value="true" />
+      <created>1696278099830</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1696278099830</updated>
+    </task>
+    <task id="LOCAL-00015" summary="implementing yesno gen">
+      <option name="closed" value="true" />
+      <created>1696330293452</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1696330293452</updated>
+    </task>
+    <task id="LOCAL-00016" summary="fixed multi word string input">
+      <option name="closed" value="true" />
+      <created>1696330807953</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1696330807953</updated>
+    </task>
+    <task id="LOCAL-00017" summary="fixed multi word string input">
+      <option name="closed" value="true" />
+      <created>1696370068647</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1696370068647</updated>
+    </task>
+    <task id="LOCAL-00018" summary="test gen fix and finalization">
+      <option name="closed" value="true" />
+      <created>1696413910306</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1696413910306</updated>
+    </task>
+    <task id="LOCAL-00019" summary="accidental bug">
+      <option name="closed" value="true" />
+      <created>1696414040704</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1696414040704</updated>
+    </task>
+    <task id="LOCAL-00020" summary="implemented lukas variation">
+      <option name="closed" value="true" />
+      <created>1696587914796</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1696587914796</updated>
+    </task>
+    <task id="LOCAL-00021" summary="fixed string input with multi word">
+      <option name="closed" value="true" />
+      <created>1696697712345</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1696697712345</updated>
+    </task>
+    <task id="LOCAL-00022" summary="fixed string gen multi input">
+      <option name="closed" value="true" />
+      <created>1696711957897</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1696711957897</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VCPKGProject">
+    <isAutomaticEditVcpkgJson value="false" />
+    <isAutomaticCheckingOnLaunch value="false" />
+    <isAutomaticFoundErrors value="true" />
+    <isAutomaticFoundErrors value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="fix and intro" />
+    <MESSAGE value="updated login, updated menu and set up for next step.. generation" />
+    <MESSAGE value="minor changes" />
+    <MESSAGE value="minor update" />
+    <MESSAGE value="fixed input verification, implemented verification inside inputGen method." />
+    <MESSAGE value="minor documentation" />
+    <MESSAGE value="finished string generation" />
+    <MESSAGE value="testing multiclassing" />
+    <MESSAGE value="testing multiclassing fixed" />
+    <MESSAGE value="implementing yesno gen" />
+    <MESSAGE value="fixed multi word string input" />
+    <MESSAGE value="test gen fix and finalization" />
+    <MESSAGE value="accidental bug" />
+    <MESSAGE value="implemented lukas variation" />
+    <MESSAGE value="fixed string input with multi word" />
+    <MESSAGE value="fixed string gen multi input" />
+    <option name="LAST_COMMIT_MESSAGE" value="fixed string gen multi input" />
+  </component>
+</project>

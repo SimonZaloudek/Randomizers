@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="RandomizerCS.exe" version="1.0.0.0" publicKeyToken="4f8add61e6202308" language="neutral" processorArchitecture="msil" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="RandomizerCS" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="RandomizerCS.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Manifest Options
+          If you want to change the Windows User Account Control level replace the
+          requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         If you want to utilize File and Registry Virtualization for backward
+         compatibility then delete the requestedExecutionLevel node.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="RandomizerCS.exe" size="9136">
+      <assemblyIdentity name="RandomizerCS" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>/bsNWnEbBcIdsEwYvHW6vcUrut2PNRICbGo3LpFAnWg=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="RandomizerCS.exe.config" size="189">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>R+Wg8QGvQVHX8T0ta/qbhH1bXkqY0fRnS3wBV3J0bN8=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=SIMONPC\simon" issuerKeyHash="cf6c33e9a8483ef4c4ce33545d7a63f9730104db" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>cNCVBwG18AsUqGA1uPsb9eXRMM2Axf4fnHqYsqqEbTk=</DigestValue></Reference></SignedInfo><SignatureValue>GcPxbJfDvEQzNNt7uYFJZom4cU2KsXdCvYV8T2r7FoneKpDo8d15MASLz1Zjrcxd/1lIOXfw6jl2mupsf8stI8zTPNd59lMyNAFElx09sK67Rf+5XDYT0LfrR8dO6XAvts4Oofk+m4CCQzujvBKteFHVoQKo0f8P0QDV8A1WAhU=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>pl4oBGdbXWGiOgSUzYgJfaOK/olRgtNGUvuH9eIT27n5XFEthhxBB9bhY+o7FQpGXAr1uRYpujfU4hQJOORWjgSVCep1NCA2tdHi/fjE4DtZj8m9/vCshhIW/g2104yomjA5t+uAp74Dnd9KJZREvkmAYGawYMpOUFcWOeuRcsk=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="396d84aab2987a9c1ffec580cd30d1e5f51bfbb83560a8140bf0b5010795d070" Description="" Url=""><as:assemblyIdentity name="RandomizerCS.exe" version="1.0.0.0" publicKeyToken="4f8add61e6202308" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=SIMONPC\simon</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>GhUombMhkFOCmok2cO7SOF+kAn2YtVunbNEaQa8+HWs=</DigestValue></Reference></SignedInfo><SignatureValue>MwUsTjr5gWIu7wd+VwxGdJxphUn4FUNNBfN/Sm4sAvAsmlcZ5qtYTHfoJaSY5FSuoxm6ENj7EIlakG/wJx24677sJkgWXD0K4CTZxfmlnqHkhVzda+Fz/TV9OdQIaMMs8WIk1PCt0AIGUz5uYbVwr2vP26lHifaBbg478m/ajDc=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>pl4oBGdbXWGiOgSUzYgJfaOK/olRgtNGUvuH9eIT27n5XFEthhxBB9bhY+o7FQpGXAr1uRYpujfU4hQJOORWjgSVCep1NCA2tdHi/fjE4DtZj8m9/vCshhIW/g2104yomjA5t+uAp74Dnd9KJZREvkmAYGawYMpOUFcWOeuRcsk=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIBzTCCATagAwIBAgIQH3nh62YAjbVJ3SuEy/+WQjANBgkqhkiG9w0BAQsFADAlMSMwIQYDVQQDHhoAUwBJAE0ATwBOAFAAQwBcAHMAaQBtAG8AbjAeFw0yMzA5MTMyMjI2NTFaFw0yNDA5MTMwNDI2NTFaMCUxIzAhBgNVBAMeGgBTAEkATQBPAE4AUABDAFwAcwBpAG0AbwBuMIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCmXigEZ1tdYaI6BJTNiAl9o4r+iVGC00ZS+4f14hPbuflcUS2GHEEH1uFj6jsVCkZcCvW5Fim6N9TiFAk45FaOBJUJ6nU0IDa10eL9+MTgO1mPyb3+8KyGEhb+DbXTjKiaMDm364CnvgOd30ollES+SYBgZrBgyk5QVxY565FyyQIDAQABMA0GCSqGSIb3DQEBCwUAA4GBACKkXuN1h+0oCMu/PJHLrhE+KDwsQhWQR8h5xEDGz0qCZZoDPgiqiWPAY3zP/jenbOHcU8WQ/piQYnTjKTtqJ3ZcTjzaEaMNd0bROaIdwVc5Fh9QaZhogoveQmDVvDLLaI7/1hbaNZugqfXyayEBSGRPy/KVTQlpoQaJtYxbpmA5</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
